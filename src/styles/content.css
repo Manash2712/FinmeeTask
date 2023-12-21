@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Roboto:wght@300;400;500&display=swap');
+.content-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.leftAlign {
+  flex-direction: row-reverse;
+}
+
+.content-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding-top: 3%;
+  padding-bottom: 3%;
+  justify-content: center;
+}
+
+.content-heading {
+  font-family: 'Inter', 'Times';
+  font-weight: 500;
+  font-size: 50px;
+  color: #ff3a2d;
+}
+
+.content-detail p {
+  padding-top: 20px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.content-left {
+  width: 650px;
+}
+
+.content-left > img {
+  /* height: 450px; */
+  width: 100%;
+}
+
+.content-button {
+  width: 170px;
+  height: 40px;
+  margin-top: 20px;
+  background: #ff3a2d;
+  color: #fff;
+  border: 0px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+@media screen and (max-width: 940px) {
+  .content-div {
+    justify-content: center;
+  }
+  .content-right {
+    width: 100%;
+  }
+  .content-heading {
+    font-size: 35px;
+  }
+}
